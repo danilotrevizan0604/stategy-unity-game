@@ -53,6 +53,6 @@
         "Temp/":true
     },
     "workbench.preferredDarkColorTheme": "Abyss",
-    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "workbench.colorTheme": "Visual Studio 2019 Dark",
     "workbench.preferredHighContrastColorTheme": "Solarized Dark"
 }

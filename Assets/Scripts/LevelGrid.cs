@@ -6,7 +6,6 @@ public class LevelGrid : MonoBehaviour
 {
     public static LevelGrid Instance { get; private set;}   
 
-
     [SerializeField] private Transform gridDebugObjectPrefab;
     private GridSystem gridSystem;
     private void Awake()
@@ -28,6 +27,7 @@ public class LevelGrid : MonoBehaviour
     {
         GridObject gridObject = gridSystem.GetGridObject(gridPosition);
         gridObject.AddUnit(unit);
+        
 
 
     }
