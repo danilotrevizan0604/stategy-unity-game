@@ -54,5 +54,8 @@
     },
     "workbench.preferredDarkColorTheme": "Abyss",
     "workbench.colorTheme": "Visual Studio 2019 Dark",
-    "workbench.preferredHighContrastColorTheme": "Solarized Dark"
+    "workbench.preferredHighContrastColorTheme": "Solarized Dark",
+
+    "omnisharp.path": "latest",
+    "omnisharp.useGlobalMono": "always"
 }
