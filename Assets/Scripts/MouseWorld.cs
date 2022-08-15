@@ -10,7 +10,8 @@ public class MouseWorld : MonoBehaviour
     private void Awake() {
         instance = this;
     }
-    private void Update(){
+    private void Update()
+    {
         transform.position = MouseWorld.GetPosition();
     }
     public static Vector3 GetPosition(){
